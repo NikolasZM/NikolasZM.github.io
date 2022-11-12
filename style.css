@@ -29,7 +29,6 @@ ol {
 .navbar {
     display: flex;
     margin-right: 10px;
-
 }
 
 .logo{
@@ -41,7 +40,6 @@ ol {
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
-
 }
 
 .navbar a {
@@ -57,7 +55,6 @@ ol {
     background: #4a4a4a;
 }
 
-
 .header {
     display: flex;
     justify-content: center;
@@ -65,14 +62,13 @@ ol {
 }
 
 .header {
-    height: 60vh !important;
+    height: 70vh !important;
     background: url(img/thumb-1920-1014821.png) no-repeat center;
     background-size: cover;
 }
 
 .title {
     margin-bottom: 40px ;
-    margin-top: 10px;
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
@@ -86,6 +82,13 @@ p {
     padding: 0 100px;
 }
 
+.intro {
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    color: #fff;
+}
+
 .btn {
     display: inline-block;
     margin-top: 15px;
@@ -94,14 +97,14 @@ p {
     color: #fff;
     text-decoration: none;
     background: #9c27b0 ;
-
 }
+
 .btn:hover {
     background: none;
 }
+
 .btn-home {
     display: flex;
-
 }
 
 .btn-home a {
@@ -117,7 +120,7 @@ p {
 }
 
 .sau {
-    padding: 30px;
+    padding: 50px;
     background: #1f1d1d;
 }
 
@@ -148,7 +151,6 @@ p {
     background: #9c27b0;
     font-size: 2rem;
     margin: 1rem 0;
-
 }
 
 .box-container .box h3 {
@@ -165,6 +167,10 @@ p {
     background: #171717;
 }
 
+.about {
+    text-align: center;
+}
+
 .price {
     background: url(img/fff8ee27dd71c534e6a2754cb6534d9e.jpeg) no-repeat center;
     background-attachment: fixed;
@@ -178,12 +184,13 @@ p {
     padding-bottom: 0;
 }
 
-@media (max-widht: 768px) {
+@media (max-width: 768px) {
     
     .title {
         margin-bottom: 0;
         font-size: 40px;
     }
+    
     .sau {
         height: 120vh;
     }
